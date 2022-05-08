@@ -1,0 +1,45 @@
+.introduce{
+    /* background-color: #ff6600; */
+    margin: 20px 0;
+}
+.introduce-title{
+    font-size: 30px;
+    color: #ff6600;
+    font-weight: 600;
+}
+.introduce-title span{
+    color: #222222;
+}
+.introduce-describe{
+    color: #1c1c1c;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 2;
+}
+.des-title{
+    font-size: 18px;
+    font-weight: 600;
+}
+.des-text{
+    color: #353535;
+    font-size: 16px;
+    line-height: 2;
+}
+.des{
+    margin: 80px 0;
+}
+.des_title {
+    color: #ff6600;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.des_title span{
+    color: black;
+}
+@media only screen and (max-width: 768px){
+	.introduce-describe{
+        width: 80%;
+    }
+}

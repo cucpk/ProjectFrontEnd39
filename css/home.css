@@ -1,0 +1,499 @@
+.owl-theme .owl-dots .owl-dot span{
+    background-color: #ff5011;
+}
+.owl-theme .owl-dots .owl-dot span{
+    background-color: #ff5011;
+}
+/* banner */
+.banner-des_title {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.banner-des_title-alike{
+    color: #fff;
+}
+.banner-des_title-diff {
+    color: #ff5011;
+}
+.banner-des_p{
+    font-size: 25px;
+    color: #fff;
+}
+.banner-des_button{
+    margin-top: 20px;
+}
+.banner-des_button button{
+    background: #ff5011;
+    padding: 5px 30px;
+    border-radius: 30px;
+    border: 1px solid #ff5011;
+    font-size: 25px;
+}
+.banner-des_button span{
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+}
+.banner-des_button i{
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+.banner{
+    position: relative;
+    margin: 0 auto;
+    /* height: 200px !important; */
+}
+.banner-des{
+    position: absolute;
+    width: 100%;
+    top: 28%;
+    z-index: 2;
+    text-align: center;
+    margin: 0 auto;
+}
+.item img{
+    width: 100%;
+    height: 700px;
+}
+.banner-layout{
+background-color: rgba(0, 0, 0, 0.4);
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+z-index: 1;
+}
+/* hot-tour */
+.hot-tour{
+    margin: 60px 0;
+}
+.hot-tour_title{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.hot-tour_item{
+    position: relative;
+    margin-top: 25px;
+}
+.hot-tour_item-des{
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    padding-right: 15px;
+    z-index: 2;
+}
+.hot-tour_item-des-title{
+    color: #fff;
+    font-size: 25px;
+}
+.hot-tour_item-des-start{
+    color: rgb(249, 249, 32);
+    font-size: 13px;
+}
+.hot-tour_item-des-price{
+    font-size: 17px;
+    color: #fff;
+}
+.hot-tour_item-des-button button{
+    color: #fff;
+    background-color: #ff5011;
+    font-size: 14px;
+    padding: 3px 13px;
+    border-radius: 15px;
+    border: 1px solid #ff5011;
+}
+.hot-tour_item-img img{
+    width: 100%;
+}
+.hot-tour_item img {
+    transform: scale(1);
+	transition: 0.5s ease-in-out;
+    
+}
+.hot-tour_item-img{
+    overflow: hidden;
+}
+.hot-tour_item:hover img{
+    transform: scale(1.3);
+}
+.hot-tour_item{
+    overflow: hidden;
+}
+.hot-tour_layout{
+    background-color: rgba(0, 0, 0, 0.3);   
+    position: absolute; 
+    top: 0;
+    bottom: 0;
+    left: 15px;
+    right: 15px;
+    z-index: 1;
+}
+/* discount */
+.discount{
+    position: relative;
+    margin: 0 auto;
+}
+.discount img{
+    width: 100%;
+    height: 400px;
+}
+.discount-des{
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    position: absolute;
+    top: 23%;
+    width: 100%;
+    z-index: 2;
+}
+.discount-des_dis{
+    font-size: 25px;
+}
+.discount-des_star{
+    color: rgb(249, 249, 32);
+}
+.discount-des_title{
+    font-size: 45px;
+}
+.discount-des_date{
+    font-size: 18px;
+}
+.discount-des_button button{
+    color: #fff;
+    background-color: #ff5011;
+    font-size: 16px;
+    padding: 4px 15px;
+    border-radius: 15px;
+    border: 1px solid #ff5011;
+}
+.discount-layout{
+    background-color: rgba(0, 0, 0, 0.3);   
+    position: absolute; 
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+/* tourist-attraction */
+.tourist-attraction_title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.tourist-attraction_img{
+    flex-wrap: wrap;
+}
+.tourist-attraction_img >div{
+    width: calc(100%/3);
+}
+.tourist-attraction_img img{
+    width: 100%;
+    height: 100%;
+}
+.tourist-attraction_items{
+    position: relative;
+    overflow: hidden;
+}
+.tourist-attraction_items img{
+    transform: scale(1);
+	transition: 0.5s ease-in-out;
+}
+.tourist-attraction_items:hover img{
+    transform: scale(1.3);
+}
+
+.tourist-attraction_items-des{
+    position: absolute;
+    top: 35%;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+    color: #fff;
+}
+.tourist-attraction_items-layout{
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    position: absolute;
+}
+.tourist-attraction{
+    margin: 30px 0;
+    padding: 50px 0;
+}
+.tourist-attraction_items-des-title{
+    font-size: 30px;
+    font-weight: 600;
+}
+.tourist-attraction_items-des-date{
+    font-size: 16px;
+}
+/* famous-place */
+.famous-place_title{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 30px 0;
+}
+.famous-place_des-star{
+    color: rgb(249, 249, 32);
+}
+.famous-place_des-title{
+    font-size: 20px;
+    color: #fff;
+}
+.famous-place_des-p{
+    font-size: 16px;
+    color: #fff;
+}
+.famous-place_des-button button{
+    color: #fff;
+    background-color: #ff5011;
+    border: 1px solid #ff5011;
+    font-size: 14px;
+    padding: 2px 10px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.famous-place_items{
+    position: relative;
+}
+.famous-place_img img{
+    width: 100%;
+}
+.famous-place_des{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    left: 10%;
+    z-index: 2;
+    font-weight: 600;
+}
+.famous-place_layout{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.29);
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.famous-place_wrap{
+    position: relative;
+}
+img{
+    object-fit: cover  !important;
+}
+/* city-tourism */
+.city-tourism{
+    margin: 30px 0;
+}
+.city-tourism_img-top img{
+    width: 100%;
+    height: auto;
+}
+.city-tourism_img-top img{
+    margin-top: 20px;
+}
+.city-tourism_title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.city-tourism_items-title{
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+.city-tourism_price-alike{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+.city-tourism_price-diff{
+    color: #ff5011;
+    font-size: 16px;
+    font-weight: 600;
+}
+.city-tourism_button button{
+    color: #fff;
+    background-color: #ff5011;
+    border: 1px solid #ff5011;
+    font-size: 12px;
+    padding: 3px 10px;
+    border-radius: 10px;
+}
+.city-tourism_des{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    z-index: 2;
+}
+.city-tourism_items{
+    position: relative;
+}
+.city-tourism_items img{
+    height: 200px;
+    width: 100%;
+}
+.city-tourism_items-layout{
+    background-color: rgba(0, 0, 0, 0.29);
+    top: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.city-tourism_img-bot{
+    overflow: hidden;
+    background-image: url(../images/map.png);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    background-size: cover;
+    z-index: 2;
+    position: relative;
+}
+.city-tourism_bg{
+    background-color: rgba(0, 0, 0, 0.05);
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0 15px;
+}
+.tt{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.tt-title{
+    font-size: 26px;
+    font-weight: 600;
+}
+.tt-city-name{
+    font-size: 14px;
+    font-weight: 600;
+}
+.bg_bot{
+    overflow: hidden;
+    background-image: url(../images/map.png);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    background-size: cover;
+    z-index: 2;
+    position: relative;
+    background-position-y: bottom;
+}
+#back-to-top{
+	position: fixed;
+	bottom: 3%;
+	right: 2%;
+	width: 40px;
+	height: 40px;
+    font-size: 24px;
+	border-radius: 50%;
+	color: #1c1c1c;
+	/* background-color: #000000; */
+    border: 1px solid #000000;
+    /* border: #ff5011; */
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+#back-to-top:hover{
+    background-color: #ff5011;
+    color: #fff;
+    border: 1px solid #ff5011;
+}
+@media only screen and (max-width: 1199px){
+	.container {
+    	max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px){
+	#iconbacktotop{
+		display:none !important;
+	}
+	.header-top{
+		display:none !important;
+	}
+	.dropdown-menu{
+		text-align: center;
+		margin: 0 auto;
+		background: #fff;
+	}
+	.dropdown-item {
+		color: #000000;
+	}
+	.navbar-nav li{
+		padding:0 !important;
+	}
+	.menu{
+		padding: 0 !important;
+	}
+	.navbar-nav li::after{
+		display:none;
+	}
+	.nav-link{
+		text-align: center;
+	}
+	.form-search{
+		margin:10px 0 20px 0;
+		text-align: center;
+	}
+	.form-search input{
+		width: 50%;
+	}
+	.nav-link{
+		margin-top:10px;
+	}
+    .banner-des_title{
+        font-size: 20px;
+    }
+    .banner-des_p{
+        font-size: 16px;
+    }
+    .item img{
+        height: 400px;
+    }
+    .banner-des_button button{
+        padding: 5px 20px;
+        font-size: 14px;
+    }
+    .hot-tour_title{
+        font-size: 24px;
+    }
+    .discount-des_title{
+        font-size: 20px;
+    }
+    .tourist-attraction_title{
+        font-size: 20px;
+    }
+    /* .tourist-attraction_items{
+        width: 100%;
+    } */
+    .tourist-attraction_img >div{
+        width: 100%;
+        /* margin-top: 20px; */
+    }
+    .tourist-attraction_items-des-title{
+        font-size: 24px;
+    }
+    .famous-place_title ,.city-tourism_title{
+        font-size: 20px;
+    }
+}
+

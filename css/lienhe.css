@@ -1,0 +1,76 @@
+.map iframe{
+    width: 100%;
+}
+.contact{
+    margin-top: 80px;
+    /* background-image: url(../images/lienhe-2.jpg); */
+    position: relative;
+}
+.contact .container{
+    background-image: url(../images/lienhe-2.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.contact-img img{
+    width: 40%;
+    position: absolute;
+    /* top: 10%; */
+    right: 20%;
+    left: 40%;
+    bottom: 0;
+    z-index: 1;
+}
+.contact-us{
+    background-color: rgb(244 220 62);
+    width: 75%;
+    padding: 20px 20px;
+    margin-bottom: 15px;
+    margin: 0 auto;
+} 
+
+.contact-us_title{
+    font-size: 24px;
+    font-weight: 600;
+}
+.contact-text input{
+    width: 100%;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 0px solid #eee;
+    color: #555;
+}
+.contact-textarea textarea{
+    padding: 3px 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 0px solid #eee;
+    width: 100%;
+    color: #555;
+}
+.contact-buton button{
+    color: #ffdd00;
+    background-color: #3c3c3c;
+    font-size: 14px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 1px solid #3c3c3c;
+}
+.error{
+    color: red;
+    padding-left: 8px;
+    padding-top: 5px;
+}
+@media only screen and (max-width: 820px){
+	.contact-img img{
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px){
+	.contact-img img{
+        display: none;
+    }
+    /* .contact-us{
+        width: 50%;
+    } */
+}
+
+

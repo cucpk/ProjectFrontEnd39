@@ -1,0 +1,130 @@
+.hotel-top{
+    background-color: #ca5f18 ;
+    padding: 20px;
+    color: #fff;
+    font-size: 14px;
+}
+.hotel-top .container{
+    align-items: center;
+}
+.hotel-top_left{
+    align-items: center;
+}
+.hotel-top_left a{
+    color: #fff;
+}
+.hotel-top_left span{
+    font-weight: 600;
+}
+.hotel-top_item {
+   justify-content: space-between !important;
+   align-items: center;
+}
+.frm-box{
+    width: 20%;
+    color: #fff;
+    align-items: center;
+}
+.frm-box .custom-select{
+    border: 1px solid #e66f20;
+    border-radius: 15px;
+}
+.wrap img{
+    width: 100%;
+}
+button{
+    padding: 5px 8px;
+    font-size: 15px;
+    border-top: 2px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background-color: rgba(0,0,0,0.04);
+    padding-left: 15px;
+    padding-right: 15px;
+    color: rgba(102,102,102,0.85);
+}
+button:hover{
+    border-top-color: #ff6600;
+}
+.title{
+    font-size: 28px;
+    font-weight: 600;
+}
+.price{
+    font-size: 20px;
+    font-weight: 600;
+}
+.des{
+    color: #1c1c1c;
+    line-height: 2;
+    font-size: 16px;
+}
+.button button {
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff6600;
+    font-weight: 600;
+    border: 1px solid #ff6600;
+    border-radius: 5px;
+}
+.button a{
+    color: #fff;
+}
+.button a:hover{
+    color: #ff6600;
+    background-color: #fff;
+}
+.button button:hover{
+    color: #ff6600;
+    background-color: #fff;
+}
+.loacl i{
+    color: #ff6600;
+}
+.news-bot_right-line {
+    width: 30px;
+    height: 3px;
+    background-color: #ff5011;
+}
+.famous-place_des-p{
+    padding-top: 10px;
+    font-style: italic;
+    font-weight: 600;
+    color: rgb(104, 100, 100);
+}
+.famous-place_des-title{
+    color: #1c1c1c;
+    font-weight: 600;
+}
+.famous-place_des-button{
+    color: #ff6600;
+    font-style: italic;
+}
+.mota{
+    margin-top: 30px;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 600;
+    display: none;
+    color: #ff6600;
+}
+.none{
+    display: none !important;
+}
+.block{
+    display: block !important;
+}
+.lichtrinh{
+    margin-top: 30px;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 600;
+    display: none;  
+    color: #ff6600;
+}
+@media only screen and (max-width: 768px){
+	.title{
+        margin-top: 30px;
+    }
+}

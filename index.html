@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CucOffice</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/home.css">
+</head>
+<body>
+    <div class="header-bottom">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="header-bottom-logo">
+                    <a href="./index.html"><img src="./images/logo_home.png" class="logo"></a>
+                </div>
+                <button class="navbar-toggler navbar-dark text-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"	 aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto pr-3 menu">
+                        <li class="nav-item active pr-3">
+                            <a class="nav-link" href="./index.html">TRANG CHỦ</a>
+                        </li>
+                        <li class="nav-item pr-3">
+                            <a target="_blank" class="nav-link" href="./pages/gioithieu.html">GIỚI THIỆU</a>
+                        </li>
+                        <li class="nav-item dropdown pr-3 hover">
+                            <a target="_blank" class="nav-link dropdown-toggle" href="./pages/tour.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                TOUR DU LỊCH
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a target="_blank" class="dropdown-item" href="./pages/tour.html">Miền Bắc</a>
+                                <a target="_blank" class="dropdown-item" href="./pages/tour.html">Miền Trung</a>
+                                <a target="_blank" class="dropdown-item" href="./pages/tour.html">Miền Nam</a>
+                            </div>
+                        </li>
+                        <li class="nav-item pr-3">
+                            <a target="_blank" class="nav-link" href="./pages/khachsan.html">KHÁCH SẠN</a>
+                        </li>
+                        <li class="nav-item pr-3">
+                            <a target="_blank" class="nav-link" href="./pages/tintuc.html">TIN TỨC</a>
+                        </li>
+                        <li class="nav-item pr-3">
+                            <a target="_blank" class="nav-link" href="./pages/lienhe.html">LIÊN HỆ</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </nav>
+        </div>
+    </div>
+<!-- <header>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <img src="./images/logo_home.png" alt="">
+            </div>
+            <div class="col-lg-9 d-flex header-nav">
+                <div class="pr-5"><a target="_blank" href="index.html">TRANG CHỦ</a></div>
+                <div class="pr-5"><a target="_blank" href="./pages/gioithieu.html">GIỚI THIỆU</a></div>
+                <div class="pr-5"><a target="_blank" href="./pages/tour.html">TOUR DU LỊCH</a></div>
+                <div class="pr-5"><a target="_blank" href="./pages/khachsan.html">KHÁCH SẠN</a></div>
+                <div class="pr-5"><a target="_blank" href="./pages/tintuc.html">TIN TỨC</a></div>
+                <div class=""><a target="_blank" href="./pages/lienhe.html">LIÊN HỆ</a></div>
+            </div>
+        </div>
+    </div>
+</header> -->
+<main>
+    <div class="owl-carousel owl-theme banner-img">
+        <div class="banner">
+            <div class="item "><img src="./images/phu-quoc.jpg" alt=""></div>
+            <div class="banner-layout">
+            </div>
+            <div class="banner-des">
+                <div class="banner-des_title d-flex justify-content-center">
+                    <div class="banner-des_title-alike">CÔNG TY</div>
+                    <div class="banner-des_title-diff px-2">MONA</div>
+                    <div class="banner-des_title-alike">TRAVEL</div>
+                </div>
+                <div class="banner-des_p">
+                    Chuyên tổ chức các tour du lịch trong nước
+                </div>
+                <div class="banner-des_button">
+                    <a target="_blank" href="./pages/tour.html">
+                        <button>
+                            <span>XEM NGAY</span>
+                            <i data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000" class="fa fa-map-marker" aria-hidden="true"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="item "><img src="./images/ba-na-hill.jpg" alt=""></div>
+            <div class="banner-layout">
+            </div>
+            <div class="banner-des">
+                <div class="banner-des_title d-flex justify-content-center">
+                    <div class="banner-des_title-alike">CÔNG TY</div>
+                    <div class="banner-des_title-diff px-2">MONA</div>
+                    <div class="banner-des_title-alike">TRAVEL</div>
+                </div>
+                <div class="banner-des_p">
+                    Chuyên tổ chức các tour du lịch trong nước
+                </div>
+                <div class="banner-des_button">
+                    <a href="">
+                        <button>
+                            <span>XEM NGAY</span>
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="item "><img src="./images/ba-na-hill.jpg" alt=""></div>
+            <div class="banner-layout">
+            </div>
+            <div class="banner-des">
+                <div class="banner-des_title d-flex justify-content-center">
+                    <div class="banner-des_title-alike">CÔNG TY</div>
+                    <div class="banner-des_title-diff px-2">MONA</div>
+                    <div class="banner-des_title-alike">TRAVEL</div>
+                </div>
+                <div class="banner-des_p">
+                    Chuyên tổ chức các tour du lịch trong nước
+                </div>
+                <div class="banner-des_button">
+                    <a href="">
+                        <button>
+                            <span>XEM NGAY</span>
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hot-tour">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 hot-tour_title text-center">
+                    CÁC TOUR HẤP DẪN NHẤT NĂM 2022
+                </div>
+                
+                <div class="col-lg-4 col-sm-6 hot-tour_item">
+                    <div class="hot-tour_item-img ">
+                        <img src="./images/hot-tour-1.jpg" alt="">
+                    </div>
+                    <div class="hot-tour_item-des text-center">
+                        <div class="hot-tour_item-des-title">
+                            Sapa - Lào Cai
+                        </div>
+                        <div class="hot-tour_item-des-start py-2">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <div class="hot-tour_item-des-price ">
+                            Giá tour:  $200
+                        </div>
+                        <div class="hot-tour_item-des-button py-3">
+                            <a target="_blank" href="./pages/tour.html"><button>XEM NGAY</button></a>
+                        </div>
+                    </div>
+                    <div class="hot-tour_layout"></div>
+                </div>
+                <div class="col-lg-4 col-sm-6 hot-tour_item">
+                    <div class="hot-tour_item-img">
+                        <img src="./images/hot-tour-2.jpg" alt="">
+                    </div>
+                    <div class="hot-tour_item-des text-center">
+                        <div class="hot-tour_item-des-title">
+                            Cố đô Huế
+                        </div>
+                        <div class="hot-tour_item-des-start py-2">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <div class="hot-tour_item-des-price ">
+                            Giá tour:  $220
+                        </div>
+                        <div class="hot-tour_item-des-button py-3">
+                            <a target="_blank" href="./pages/tour.html"><button>XEM NGAY</button></a>
+                        </div>
+                    </div>
+                    <div class="hot-tour_layout"></div>
+                </div>
+                <div class="col-lg-4 col-sm-6 hot-tour_item">
+                    <div class="hot-tour_item-img">
+                        <img src="./images/hot-tour-3.jpg" alt="">
+                    </div>
+                    <div class="hot-tour_item-des text-center">
+                        <div class="hot-tour_item-des-title">
+                            Vịnh Hạ Long
+                        </div>
+                        <div class="hot-tour_item-des-start py-2">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <div class="hot-tour_item-des-price ">
+                            Giá tour:  $250
+                        </div>
+                        <div class="hot-tour_item-des-button py-3">
+                            <a target="_blank" href="./pages/tour.html"><button>XEM NGAY</button></a>
+                        </div>
+                    </div>
+                    <div class="hot-tour_layout"></div>
+                </div>
+                <div class="col-lg-4 col-sm-6 hot-tour_item">
+                    <div class="hot-tour_item-img">
+                        <img src="./images/hot-tour-4.jpg" alt="">
+                    </div>
+                    <div class="hot-tour_item-des text-center">
+                        <div class="hot-tour_item-des-title">
+                            Miền Tây
+                        </div>
+                        <div class="hot-tour_item-des-start py-2">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <div class="hot-tour_item-des-price ">
+                            Giá tour:  $100
+                        </div>
+                        <div class="hot-tour_item-des-button py-3">
+                            <a target="_blank" href="./pages/tour.html"><button>XEM NGAY</button></a>
+                        </div>
+                    </div>
+                    <div class="hot-tour_layout"></div>
+                </div>
+                <div class="col-lg-4 col-sm-6 hot-tour_item">
+                    <div class="hot-tour_item-img">
+                        <img src="./images/hot-tour-5.jpg" alt="">
+                    </div>
+                    <div class="hot-tour_item-des text-center">
+                        <div class="hot-tour_item-des-title">
+                            Đà Lạt
+                        </div>
+                        <div class="hot-tour_item-des-start py-2">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <div class="hot-tour_item-des-price ">
+                            Giá tour:  $250
+                        </div>
+                        <div class="hot-tour_item-des-button py-3">
+                            <a target="_blank" href="./pages/tour.html"><button>XEM NGAY</button></a>
+                        </div>
+                    </div>
+                    <div class="hot-tour_layout"></div>
+                </div>
+                <div class="col-lg-4 col-sm-6 hot-tour_item">
+                    <div class="hot-tour_item-img">
+                        <img src="./images/hot-tour-6.jpg" alt="">
+                    </div>
+                    <div class="hot-tour_item-des text-center">
+                        <div class="hot-tour_item-des-title">
+                            Hội An
+                        </div>
+                        <div class="hot-tour_item-des-start py-2">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <div class="hot-tour_item-des-price ">
+                            Giá tour:  $300
+                        </div>
+                        <div class="hot-tour_item-des-button py-3">
+                           <a target="_blank" href="./pages/tour.html"> <button>XEM NGAY</button></a>
+                        </div>
+                    </div>
+                    <div class="hot-tour_layout"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="discount">
+        <div class="discount-img">
+            <img src="./images/giamgia.jpg" alt="">
+        </div>
+        <div class="discount-des">
+            <div class="discount-des_dis">
+                Giảm giá 30%
+            </div>
+            <div class="discount-des_star pt-2">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <div class="discount-des_title">
+                NGHỈ DƯỠNG TẠI PHÚ QUỐC
+            </div>
+            <div class="discount-des_date">
+                Từ 5/7 đến 12/7
+            </div>
+            <div class="discount-des_button pt-3">
+                <a target="_blank" href="./pages/tour.html"><button>XEM NGAY</button></a>
+            </div>
+        </div>
+        <div class="discount-layout"></div>
+    </div>
+    <div class="tourist-attraction">
+        <div class="tourist-attraction_title">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center ">NHỮNG TOUR HÚT KHÁCH</div>
+                </div>
+            </div>
+        </div>
+        <div class="tourist-attraction_wrap">
+            <div class="tourist-attraction_img d-flex ">
+                <div class="tourist-attraction_items">
+                    <img src="./images/tourist-attraction_1.jpg" alt="">
+                    <div class="tourist-attraction_items-des">
+                        <div class="tourist-attraction_items-des-title">Sapa</div>
+                        <div class="tourist-attraction_items-des-date pt-3">5 ngày 4 đêm</div>
+                    </div>
+                    <div class="tourist-attraction_items-layout"></div>
+                </div>
+                <div class="tourist-attraction_items">
+                    <img src="./images/tourist-attraction_2.jpg" alt="">
+                    <div class="tourist-attraction_items-des">
+                        <div class="tourist-attraction_items-des-title">Nha Trang</div>
+                        <div class="tourist-attraction_items-des-date pt-3">5 ngày 4 đêm</div>
+                    </div>
+                    <div class="tourist-attraction_items-layout"></div>
+                </div>
+                <div class="tourist-attraction_items">
+                    <img src="./images/tourist-attraction_3.jpg" alt="">
+                    <div class="tourist-attraction_items-des">
+                        <div class="tourist-attraction_items-des-title">Hà Nội</div>
+                        <div class="tourist-attraction_items-des-date pt-3">5 ngày 4 đêm</div>
+                    </div>
+                    <div class="tourist-attraction_items-layout"></div>
+                </div>
+                <div class="tourist-attraction_items">
+                    <img src="./images/tourist-attraction_4.jpg" alt="">
+                    <div class="tourist-attraction_items-des">
+                        <div class="tourist-attraction_items-des-title">Sài Gòn</div>
+                        <div class="tourist-attraction_items-des-date pt-3">5 ngày 4 đêm</div>
+                    </div>
+                    <div class="tourist-attraction_items-layout"></div>
+                </div>
+                <div class="tourist-attraction_items">
+                    <img src="./images/tourist-attraction_5.jpg" alt="">
+                    <div class="tourist-attraction_items-des">
+                        <div class="tourist-attraction_items-des-title">Đà Lạt</div>
+                        <div class="tourist-attraction_items-des-date pt-3">5 ngày 4 đêm</div>
+                    </div>
+                    <div class="tourist-attraction_items-layout"></div>
+                </div>
+                <div class="tourist-attraction_items">
+                    <img src="./images/tourist-attraction_6.jpg" alt="">
+                    <div class="tourist-attraction_items-des">
+                        <div class="tourist-attraction_items-des-title">Cần Thơ</div>
+                        <div class="tourist-attraction_items-des-date pt-3">5 ngày 4 đêm</div>
+                    </div>
+                    <div class="tourist-attraction_items-layout"></div>
+                </div>
+                <div class="tourist-attraction_items">
+                    <img src="./images/tourist-attraction_7.jpg" alt="">
+                    <div class="tourist-attraction_items-des">
+                        <div class="tourist-attraction_items-des-title">Đà Nẵng</div>
+                        <div class="tourist-attraction_items-des-date pt-3">5 ngày 4 đêm</div>
+                    </div>
+                    <div class="tourist-attraction_items-layout"></div>
+                </div>
+                <div class="tourist-attraction_items">
+                    <img src="./images/tourist-attraction_8.jpg" alt="">
+                    <div class="tourist-attraction_items-des">
+                        <div class="tourist-attraction_items-des-title">Đảo Phú Quốc</div>
+                        <div class="tourist-attraction_items-des-date pt-3">5 ngày 4 đêm</div>
+                    </div>
+                    <div class="tourist-attraction_items-layout"></div>
+                </div>
+                <div class="tourist-attraction_items">
+                    <img src="./images/tourist-attraction_9.jpg" alt="">
+                    <div class="tourist-attraction_items-des">
+                        <div class="tourist-attraction_items-des-title">Kinh Thành Huế</div>
+                        <div class="tourist-attraction_items-des-date pt-3">5 ngày 4 đêm</div>
+                    </div>
+                    <div class="tourist-attraction_items-layout"></div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="famous-place">
+        <div class="container">
+            <div class="">
+                <div class=" famous-place_title text-center">NHỮNG ĐỊA ĐIỂM DU LỊCH NỔI TIẾNG</div>
+                <div class="  owl-carousel owl-theme famous-place_wrap">
+                    <div class="famous-place_items">
+                        <div class="famous-place_img">
+                            <img src="./images/famous-place-1.jpg" alt="">
+                        </div>
+                        <div class="famous-place_des">
+                            <div class="famous-place_des-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="famous-place_des-title py-1">
+                                BÀ NÀ HILLS
+                            </div>
+                            <div class="famous-place_des-p pb-1">
+                                Đà Nẵng
+                            </div>
+                            <div class="famous-place_des-button">
+                                <a target="_blank" href="./pages/tour.html"><button class="mt-2">TÌM HIỂU</button></a>
+                            </div>
+                        </div>
+                        <div class="famous-place_layout"></div>
+                    </div>
+                    <div class="famous-place_items">
+                        <div class="famous-place_img">
+                            <img src="./images/famous-place-2.jpg" alt="">
+                        </div>
+                        <div class="famous-place_des">
+                            <div class="famous-place_des-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="famous-place_des-title py-1">
+                                VINPERARL LAND
+                            </div>
+                            <div class="famous-place_des-p pb-1">
+                                Nha Trang
+                            </div>
+                            <div class="famous-place_des-button">
+                                <a target="_blank" href="./pages/tour.html"><button class="mt-2">TÌM HIỂU</button></a>
+                            </div>
+                        </div>
+                        <div class="famous-place_layout"></div>
+                    </div>
+                    <div class=" famous-place_items">
+                        <div class="famous-place_img">
+                            <img src="./images/famous-place-3.jpg" alt="">
+                        </div>
+                        <div class="famous-place_des">
+                            <div class="famous-place_des-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="famous-place_des-title py-1">
+                                PHỐ CỔ HỘI AN
+                            </div>
+                            <div class="famous-place_des-p pb-1">
+                                Quảng Nam
+                            </div>
+                            <div class="famous-place_des-button">
+                                <a target="_blank" href="./pages/tour.html"><button class="mt-2">TÌM HIỂU</button></a>
+                            </div>
+                        </div>
+                        <div class="famous-place_layout"></div>
+                    </div>
+                    <div class="famous-place_items">
+                        <div class="famous-place_img">
+                            <img src="./images/famous-place-1.jpg" alt="">
+                        </div>
+                        <div class="famous-place_des">
+                            <div class="famous-place_des-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="famous-place_des-title py-1">
+                                BÀ NÀ HILLS
+                            </div>
+                            <div class="famous-place_des-p pb-1">
+                                Đà Nẵng
+                            </div>
+                            <div class="famous-place_des-button">
+                                <a target="_blank" href="./pages/tour.html"><button class="mt-2">TÌM HIỂU</button></a>
+                            </div>
+                        </div>
+                        <div class="famous-place_layout"></div>
+                    </div>
+                    <div class="famous-place_items">
+                        <div class="famous-place_img">
+                            <img src="./images/famous-place-2.jpg" alt="">
+                        </div>
+                        <div class="famous-place_des">
+                            <div class="famous-place_des-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="famous-place_des-title py-1">
+                                VINPERARL LAND
+                            </div>
+                            <div class="famous-place_des-p pb-1">
+                                Nha Trang
+                            </div>
+                            <div class="famous-place_des-button">
+                                <a target="_blank" href="./pages/tour.html"><button class="mt-2">TÌM HIỂU</button></a>
+                            </div>
+                        </div>
+                        <div class="famous-place_layout"></div>
+                    </div>
+                    <div class=" famous-place_items">
+                        <div class="famous-place_img">
+                            <img src="./images/famous-place-3.jpg" alt="">
+                        </div>
+                        <div class="famous-place_des">
+                            <div class="famous-place_des-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="famous-place_des-title py-1">
+                                PHỐ CỔ HỘI AN
+                            </div>
+                            <div class="famous-place_des-p pb-1">
+                                Quảng Nam
+                            </div>
+                            <div class="famous-place_des-button">
+                                <a  href="./pages/tour.html" target="_blank"><button class="mt-2">TÌM HIỂU</button></a>
+                            </div>
+                        </div>
+                        <div class="famous-place_layout"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="city-tourism">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 city-tourism_title text-center">
+                    CÁC THÀNH PHỐ DU LỊCH
+                </div>
+                <div class="col-lg-6 city-tourism_img-top">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="city-tourism_items">
+                                <img src="./images/city-tourism_1.jpg" alt="">
+                                <div class="city-tourism_des">
+                                    <div class="city-tourism_items-title">
+                                        Sapa
+                                    </div>
+                                    <div class="city-tourism_price d-flex py-2">
+                                        <div class="city-tourism_price-alike">Giá: </div>
+                                        <div class="city-tourism_price-diff pl-1">300$</div>
+                                        <div class="city-tourism_price-alike pl-1">/người</div>
+                                    </div>
+                                    <div class="city-tourism_button">
+                                        <a target="_blank" href="./pages/tour.html"><button>XEM NGAY</button></a>
+                                    </div>
+                                </div>
+                                <div class="city-tourism_items-layout"></div>
+                            </div>
+                            <div class="city-tourism_items">
+                                <img src="./images/city-tourism_3.jpg" alt="">
+                                <div class="city-tourism_des">
+                                    <div class="city-tourism_items-title">
+                                        Hà Nội
+                                    </div>
+                                    <div class="city-tourism_price d-flex py-2">
+                                        <div class="city-tourism_price-alike">Giá: </div>
+                                        <div class="city-tourism_price-diff pl-1">200$</div>
+                                        <div class="city-tourism_price-alike pl-1">/người</div>
+                                    </div>
+                                    <div class="city-tourism_button">
+                                        <a target="_blank" href="./pages/tour.html"><button>XEM NGAY</button></a>
+                                    </div>
+                                </div>
+                                <div class="city-tourism_items-layout"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="city-tourism_items">
+                                <img src="./images/city-tourism_2.jpg" alt="">
+                                <div class="city-tourism_des">
+                                    <div class="city-tourism_items-title">
+                                        Vịnh Hạ Long
+                                    </div>
+                                    <div class="city-tourism_price d-flex py-2">
+                                        <div class="city-tourism_price-alike">Giá: </div>
+                                        <div class="city-tourism_price-diff pl-1">300$</div>
+                                        <div class="city-tourism_price-alike pl-1">/người</div>
+                                    </div>
+                                    <div class="city-tourism_button">
+                                        <a target="_blank" href="./pages/tour.html"><button>XEM NGAY</button></a>
+                                    </div>
+                                </div>
+                                <div class="city-tourism_items-layout"></div>
+                            </div>
+                            <div class="city-tourism_items">
+                                <img src="./images/city-tourism_4.jpeg" alt="">
+                                <div class="city-tourism_des">
+                                    <div class="city-tourism_items-title">
+                                        Quảng Bình
+                                    </div>
+                                    <div class="city-tourism_price d-flex py-2">
+                                        <div class="city-tourism_price-alike">Giá: </div>
+                                        <div class="city-tourism_price-diff pl-1">200$</div>
+                                        <div class="city-tourism_price-alike pl-1">/người</div>
+                                    </div>
+                                    <div class="city-tourism_button">
+                                        <a target="_blank" href="./pages/tour.html"><button>XEM NGAY</button></a>
+                                    </div>
+                                </div>
+                                <div class="city-tourism_items-layout"></div>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+                <div class="col-lg-6 city-tourism_img-bot">
+                    <div class="city-tourism_bg"></div>
+                    <div class="tt">
+                        <div class="tt-title">Miền Bắc</div>
+                        <div class="tt-city-name py-3">Các thành phố</div>
+                        <div class="tt-ol">
+                            <ul>
+                                <li class="pt-1">-Hà Nội</li>
+                                <li class="pt-1">-Sa Pa</li>
+                                <li class="pt-1">-Hạ Long</li>
+                                <li class="pt-1">-Điện Biên</li>
+                                <li class="pt-1">-Quảng Bình</li>
+                                <li class="pt-1">-Thanh Hóa</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-3">
+                <div class="col-lg-6  bg_bot"> 
+                    <div class="city-tourism_bg "></div>
+                    <div class="tt">
+                        <div class="tt-title">Miền Nam</div>
+                        <div class="tt-city-name py-3">Các thành phố</div>
+                        <div class="tt-ol">
+                            <ul>
+                                <li class="pt-1">-Đà Lạt</li>
+                                <li class="pt-1">-Nha Trang</li>
+                                <li class="pt-1">-TP.HCM</li>
+                                <li class="pt-1">-Cần Thơ</li>
+                                <li class="pt-1">-Phú Quốc</li>
+                                <li class="pt-1">-Phan Thiết</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 city-tourism_img-top ">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="city-tourism_items">
+                                <img src="./images/city-tourism_1.jpg" alt="">
+                                <div class="city-tourism_des">
+                                    <div class="city-tourism_items-title">
+                                        Sapa
+                                    </div>
+                                    <div class="city-tourism_price d-flex py-2">
+                                        <div class="city-tourism_price-alike">Giá: </div>
+                                        <div class="city-tourism_price-diff pl-1">300$</div>
+                                        <div class="city-tourism_price-alike pl-1">/người</div>
+                                    </div>
+                                    <div class="city-tourism_button">
+                                        <a target="_blank" href="./pages/tour.html"><button>XEM NGAY</button></a>
+                                    </div>
+                                </div>
+                                <div class="city-tourism_items-layout"></div>
+                            </div>
+                            <div class="city-tourism_items">
+                                <img src="./images/city-tourism_3.jpg" alt="">
+                                <div class="city-tourism_des">
+                                    <div class="city-tourism_items-title">
+                                        Hà Nội
+                                    </div>
+                                    <div class="city-tourism_price d-flex py-2">
+                                        <div class="city-tourism_price-alike">Giá: </div>
+                                        <div class="city-tourism_price-diff pl-1">200$</div>
+                                        <div class="city-tourism_price-alike pl-1">/người</div>
+                                    </div>
+                                    <div class="city-tourism_button">
+                                        <a target="_blank" href="./pages/tour.html"><button>XEM NGAY</button></a>
+                                    </div>
+                                </div>
+                                <div class="city-tourism_items-layout"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="city-tourism_items">
+                                <img src="./images/city-tourism_2.jpg" alt="">
+                                <div class="city-tourism_des">
+                                    <div class="city-tourism_items-title">
+                                        Vịnh Hạ Long
+                                    </div>
+                                    <div class="city-tourism_price d-flex py-2">
+                                        <div class="city-tourism_price-alike">Giá: </div>
+                                        <div class="city-tourism_price-diff pl-1">300$</div>
+                                        <div class="city-tourism_price-alike pl-1">/người</div>
+                                    </div>
+                                    <div class="city-tourism_button">
+                                        <a target="_blank" href="./pages/tour.html"><button>XEM NGAY</button></a>
+                                    </div>
+                                </div>
+                                <div class="city-tourism_items-layout"></div>
+                            </div>
+                            <div class="city-tourism_items">
+                                <img src="./images/city-tourism_4.jpeg" alt="">
+                                <div class="city-tourism_des">
+                                    <div class="city-tourism_items-title">
+                                        Quảng Bình
+                                    </div>
+                                    <div class="city-tourism_price d-flex py-2">
+                                        <div class="city-tourism_price-alike">Giá: </div>
+                                        <div class="city-tourism_price-diff pl-1">200$</div>
+                                        <div class="city-tourism_price-alike pl-1">/người</div>
+                                    </div>
+                                    <div class="city-tourism_button">
+                                        <a target="_blank" href="./pages/tour.html"><button>XEM NGAY</button></a>
+                                    </div>
+                                </div>
+                                <div class="city-tourism_items-layout"></div>
+                            </div>
+                        </div>
+                    </div>   
+                </div> 
+                
+                
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="footer-top" id="row12">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12 mt-4">
+                    <div class="single-footer-widget">
+                        <div class="logo">
+                            <a href=""><img src="./images/logo_home.png" alt=""></a>
+                            <p>Công ty MONA TRAVEL chuyên tổ chức các tour du lịch trong nước, tọa lạc tại trung tâm thành phố Hà Nội, đem tới cho quý khách trải nghiệm tốt nhất.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mt-4 ">
+                    <div class="single-footer-widget ">
+                        <h6 class="pb-3">THÔNG TIN LIÊN HỆ</h6>
+                        <div class="single-footer-widget_add pb-2">
+                            <i class="fa fa-map-marker" aria-hidden="true"> </i>
+                                Trâu Quỳ, Gia Lâm, Hà Nội
+                        </div>
+                        <div class="single-footer-widget_tel pb-2">
+                            <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                            0984450109
+                        </div>
+                        <div class="single-footer-widget_email pb-2">
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            kimcucpham27@gmail.com
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mt-4">
+                    <div class="single-footer-widget">
+                        <h6 class="pb-2">ĐĂNG KÍ</h6>
+                        <p>Đăng kí ngay để nhận được thông tin mới nhất </p>
+                        <div class="single-footer-widget_input">
+                            <input type="email" placeholder="Email">
+                            <div class="single-footer-widget_icon">
+                                <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mx-auto text-center">
+                    <p><i class="fa fa-copyright"></i> 2022 <span>CUC. </span> Made with <i class="fa fa-heart text-danger"></i> by HasThemes</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div id="back-to-top">
+    <i class="fa fa-angle-up" aria-hidden="true"></i>
+</div>
+<script src="./js/jquery-3.6.0.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/home.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</body>
+</html>
