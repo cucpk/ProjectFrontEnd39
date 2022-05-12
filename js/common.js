@@ -15,4 +15,9 @@ $(document).ready(function(){
             $('main').after(html);
         }
     });
+
+    $(".cuc1").on('click',function(){
+        alert('123')
+        console.log('cuc')
+    })
 })

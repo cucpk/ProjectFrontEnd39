@@ -162,6 +162,9 @@ footer p{
 .navbar-toggler-icon{
 	color: #ff6600 !important;
 }
+.cuc span{
+	/* background-color: #ca5f18; */
+}
 @media only screen and (max-width: 1199px){
 	.container {
     	max-width: 100%;
@@ -169,7 +172,7 @@ footer p{
 }
 @media screen and (max-width: 768px){
 	#iconbacktotop{
-		display:none !important;
+		display:block !important;
 	}
 	.header-top{
 		display:none !important;
